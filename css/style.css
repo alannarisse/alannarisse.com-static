@@ -78,11 +78,12 @@ section {
 
 header {
   padding-top: 35vh;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   background-image: url('../assets/banners/kiwihug-MS9Tnh3if1o-unsplash.jpg');
   background-size: cover;
   background-repeat: no-repeat;
+  background-color:#DADADA;
 }
 
 header h1 {
@@ -143,7 +144,7 @@ li {
   background: #c7c7c7;
   display: flex;
   align-items: center;
-  font-size: 30px;;
+  font-size: 30px;
 }
 
 .nice-things .testimonial {
@@ -179,7 +180,6 @@ li {
   margin-top: 2em;
 }
 
-.grid div {}
 
 .double-col {
   grid-column-end: span 2;
@@ -339,6 +339,11 @@ footer li {
 }
 
 @media screen and (max-width: 600px) {
+  section,
+  header,
+  footer ul {
+    padding: 1em;
+  }
   .grid {
     grid-template-columns: 1fr;
   }
@@ -363,6 +368,8 @@ footer li {
   header {
     flex-direction: column;
     padding-top: 150px;
+    background-image:none;
+    background-color:#DADADA;
   }
 header .me {
   flex: 0;
@@ -384,10 +391,7 @@ header .me {
   .topnav a.icon {
     display: block;
   }
-}
 
-/* Topnav Media Qs from W3Schools */
-@media screen and (max-width: 600px) {
   h1 {
     font-size: 42px;
     margin-top: 1em;
@@ -395,6 +399,9 @@ header .me {
 
   header h2 {
     font-size: .5em;
+  }
+  .nice-things {
+    font-size: 20px;
   }
 }
 
