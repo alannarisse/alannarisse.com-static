@@ -22,6 +22,7 @@ html {
 body {
   margin: 0;
   font-family: 'Lato', sans-serif;
+  font-size:20px;
   color: #333;
 }
 
@@ -41,11 +42,12 @@ h5 {
 }
 
 h1 {
-  font-size: 60px;
+  font-size: 4rem;
 }
 
 h2 {
-  font-size: 32px;
+  font-size: 4rem;
+  line-height:4.6rem;
 }
 
 h3 {
@@ -78,10 +80,11 @@ section {
 
 header {
   padding-top: 35vh;
-  min-height: 100vh;
+  min-height: 80vh;
   display: flex;
   background-image: url('../assets/banners/kiwihug-MS9Tnh3if1o-unsplash.jpg');
-  background-size: cover;
+  background-size: 100%;
+  background-position:50%;
   background-repeat: no-repeat;
   background-color:#DADADA;
 }
@@ -236,6 +239,7 @@ footer li {
   top: 0;
   left: 0;
   right: 0;
+  z-index:2;
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -385,7 +389,7 @@ header .me {
   }
 
   .topnav a.logotype img {
-    max-height: 40px;
+    max-height: 24px;
   }
 
   .topnav a.icon {
@@ -398,6 +402,9 @@ header .me {
   }
   header {
     min-height:auto;
+  }
+  header .me {
+    text-align:center;
   }
   header h2 {
     font-size: .4em;

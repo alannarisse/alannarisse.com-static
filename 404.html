@@ -17,22 +17,30 @@
 </head>
 <body class="contact">
 
-
-
 	<nav class="topnav" id="myTopnav">
-		<a href="https://alannarisse.com/index.html" class="active">Home</a>
-		<a href="http://alannarisse.com/blog/">Blog</a>
-		<a href="https://alannarisse.com/blog/art/">Art</a>
-		<a href="http://portfolio.alannarisse.com/">Tech/Design</a>
+		<a href="https://alannarisse.com/index.html" class="active logotype" alt="AR">
+			<img src="/assets/icons/ar-logotype.png"></a>
+		<a href="/index.html#teaching">Teaching</a>
 
-	<a href="https://alannarisse.com/blog/writing/">Writing</a>
+		<!-- <a href="http://portfolio.alannarisse.com/">Tech/Design</a> -->
+
+<a href="/index.html#design">Design</a>
+<a href="/index.html#development">Development</a>
+		<!-- <a href="https://alannarisse.com/blog/writing/">Writing</a> -->
+		<a href="/index.html#art">Fine Art</a>
+
 		<a href="https://alannarisse.com/blog/about/">About</a>
-		<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+		<a href="http://alannarisse.com/blog/">Blog</a>
+		
 	</nav>
 	<header>
-<h1>404! </h1><br>
-    <p>These are not the droids you are looking for. </p>
-    <p><a href="/index.html">eek!</a></p>
+<h1>These are not the droids you are looking for.</h1><br>
+    <h3>Perhaps you're looking for one of these things?</h3>
+		<ul>
+			<li><a href="/index.html">Homepage</a></li>
+			<li><a href="http://alannarisse.com/blog"></a></li>
+			<li><a href="https://bananaphone.substack.com/">Bananaphone Substack</a></li>
+		</ul>
 		
 	</header>
 
@@ -46,6 +54,15 @@
 			<li><a href="https://github.com/alannarisse" target="_blank"><img src="assets/icons/github.svg" class="soc-icon"></a></li>
 			<li><a href="https://instagram.com/alannarisse" target="_blank"><img src="assets/icons/instagram.svg" class="soc-icon"></a></li>
 		</footer>
-		
+		<script>
+			function myFunction() {
+				var x = document.getElementById("myTopnav");
+				if (x.className === "topnav") {
+					x.className += " responsive";
+				} else {
+					x.className = "topnav";
+				}
+			}
+		</script>
 	</body>
 	</html>

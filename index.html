@@ -11,24 +11,33 @@
 	<link rel="stylesheet" href="vendor/lightbox2/css/lightbox.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="shortcut icon" href="/favicon.ico">
-
-	<!--  Essential META Tags -->
-
 	<meta property="og:title" content="Alanna Risse _ Artist, Educator, Web Developer">
 	<meta property="og:description" content="Online instruction in Art, Web Development, and Design">
 	<meta property="og:image" content="http://alannarisse.com/assets/banners/soc-banner.png">
 	<meta property="og:url" content="http://alannarisse.com">
-	<meta name="twitter:card" content="summary_large_image">
-
-	<!--  Non-Essential, But Recommended -->
-
 	<meta property="og:site_name" content="Alanna Risse">
-	<meta name="twitter:image:alt" content="Alanna Risse Art">
-
-	<!--  Non-Essential, But Required for Analytics -->
-
-	<meta property="fb:app_id" content="2903743646360668" />
-	<meta name="twitter:site" content="@alannarisse">
+	<style>
+		svg {
+			display: block;
+			width: 100%;
+			height: 90px;
+		}
+		.diag1 {
+			background:#000;
+		}
+		.diag2 {
+			background:#c7c7c7;
+		}
+		.diag3 {
+			background:#fff;
+		}
+		.diag4 {
+			background: #83b9d0;
+		}
+		.diag5 {
+			background: #d0ce83;
+		}
+	</style>
 </head>
 
 <body class="home">
@@ -57,16 +66,21 @@
 		</div>
 	</header>
 
+
+
 	<main role="main">
 
 		<section class="teach-section" id="teaching">
 			<h2 class="sect-head">Student Reel</h2>
 			<div style="width:100%;margin:auto;padding:45% 0 0 0;position:relative;"><iframe
 					src="https://player.vimeo.com/video/792109301?h=d8ecd30e0d&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
-					frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
+					frameborder="0" allow="autoplay; fullscreen; picture-in-picture"
 					style="position:absolute;top:0;left:0;width:100%;height:100%;" title="student-workv1.mp4"></iframe></div>
 			<script src="https://player.vimeo.com/api/player.js"></script>
 		</section>
+		<svg class="diag1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 10" preserveAspectRatio="none">
+			<polygon points="100 0 100 10 0 10" fill="#c7c7c7" />
+		</svg>
 		<section class="nice-things">
 			<div class="testimonial">
 				<h2>Nice Things People Have Said</h2>
@@ -74,6 +88,9 @@
 				<p class="person"></p>
 			</div>
 		</section>
+		<svg class="diag2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 10" preserveAspectRatio="none">
+			<polygon points="100 0 100 10 0 10" fill="#fff" />
+		</svg>
 		<!-- Start Teaching -->
 		<section class="grid art-section" id="teaching">
 			<h2 class="sect-head">Technology and Teaching</h2>
@@ -97,6 +114,9 @@
 
 		</section>
 		<!-- End Teaching -->
+		<svg class="diag3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 10" preserveAspectRatio="none">
+			<polygon points="100 0 100 10 0 10" fill="#83b9d0" />
+		</svg>
 		 	<!-- Start Web Development -->
 		<section class="grid web-section" id="development">
 			<h2 class="sect-head">Web Development</h2>
@@ -184,6 +204,9 @@
 			</div> -->
 		</section>
 				<!-- End Web Development -->
+				<svg class="diag4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 10" preserveAspectRatio="none">
+					<polygon points="100 0 100 10 0 10" fill="#d0ce83" />
+				</svg>
 		<section class="grid design-section" id="design">
 			
 			<h2 class="sect-head">Illustration/Design</h2>
@@ -192,16 +215,19 @@
 			<div><img src="/assets/design/bird-magnet-package.png" alt="Oregon Bird Magnet Packaging">Oregon Bird Magnet Packaging Design</div>
 						<div style="padding:6px; padding-bottom:0;"><img style="height:80%;" src="assets/design/rr-label1.svg" alt="Rainbow Rock">Glass Etching Design</div>
 
-			<div><img src="/assets/design/racoon-pro.png" alt=""></div>
-			<div><img src="/assets/design/canyon-wren.png" alt=""></div>
-			<div><img src="/assets/design/varied-thrush.png" alt=""></div>
-			<div><img src="/assets/design/aong-sparrow.png" alt=""></div>
-			<div><img src="" alt=""></div>
-			<div><img src="/assets/design/pollard-postcard2.png" alt="Robert Pollard High Kick Riso Design">Riso Print Design</div>
+			<div><a class="procreate-image-link" data-title="Racooon" href="assets/design/racoon-pro.png" data-lightbox="procreate-set"><img src="/assets/design/racoon-pro.png" alt="Racoon in Procreate"></a></div>
+			<div style="display:none;">
+				<div><a class="procreate-image-link" data-title="Canyon Wren" href="assets/design/canyon-wren.png" data-lightbox="procreate-set"><img src="assets/design/canyon-wren.png" alt="Canyon Wren"></a></div>
+				<div><a class="procreate-image-link" data-title="Varied Thrush" href="assets/design/varied-thrush.png" data-lightbox="procreate-set"><img src="assets/design/varied-thrush.png" alt=""></a></div>
+				<div><a class="procreate-image-link" data-title="Sparrow" href="assets/design/aong-sparrow.png" data-lightbox="procreate-set"><img src="assets/design/aong-sparrow.png" alt=""></a></div>
+			</div>
+			<div><img src="assets/design/pollard-postcard2.png" alt="Robert Pollard High Kick Riso Design">Riso Print Design</div>
 
 		</section>
 
-	
+		<svg class="diag5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 10" preserveAspectRatio="none">
+			<polygon points="100 0 100 10 0 10" fill="#fff" />
+		</svg>
 		<!-- fine art START -->
 		<section class="grid art-section" id="art">
 			<h2 class="sect-head">Fine Art</h2>
@@ -462,6 +488,33 @@
 			<li><a href="https://instagram.com/alannarisse" target="_blank"><img src="assets/icons/instagram.svg"
 						class="soc-icon"></a></li>
 	</footer>
+
+	<script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+
+	<script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
+<script>
+
+
+let banners = document.querySelectorAll("section")
+
+banners.forEach( (element) => {
+	let headings = element.querySelectorAll("h1, h2")
+	
+	
+	let tl = gsap.timeline()
+		.from(headings, {rotate:-5,x:-200, opacity:0, scale:.6,stagger:0.1}, 0)
+		.to(headings,{rotate:0}, 0)
+	
+	ScrollTrigger.create({
+		trigger:element,
+		start:"top 70%",
+		toggleActions:"play none none reverse",
+		ease:'back',
+		animation:tl
+	})
+		
+})
+</script>
 	<script src="vendor/lightbox2/js/lightbox-plus-jquery.min.js"></script>
 	<script>
 		function myFunction() {
@@ -503,4 +556,3 @@
 
 </html>
 
-<!-- https://images.unsplash.com/photo-1508830524289-0adcbe822b40?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1311&q=80 -->

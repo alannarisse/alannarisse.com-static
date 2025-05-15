@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 362.37 616.45">
+<svg style="background:white;padding-top:10px;" id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 362.37 616.45">
   <defs>
     <style>
       .cls-1 {
-        fill: none;
+        fill: #fff;
         stroke: #000;
         stroke-miterlimit: 10;
         stroke-width: 4px;
@@ -13,6 +13,7 @@
         fill: #000;
         stroke-width: 0px;
       }
+      #_2nd_crystal, #rainbow {fill:#fff;}
     </style>
   </defs>
   <g id="_2nd_crystal" data-name="2nd crystal">
