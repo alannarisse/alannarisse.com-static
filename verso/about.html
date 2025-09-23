@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Verso Project</title>
+    <link rel="stylesheet" href="/verso/css/global.css" />
+    <style>
+      html {
+        --s: 100px; /* control the size*/
+        --c1: #a3cacc;
+        --c2: #355c7d;
+        
+        --_g: 
+          var(--c2) 6%  14%,var(--c1) 16% 24%,var(--c2) 26% 34%,var(--c1) 36% 44%,
+          var(--c2) 46% 54%,var(--c1) 56% 64%,var(--c2) 66% 74%,var(--c1) 76% 84%,var(--c2) 86% 94%;
+        background:
+          radial-gradient(100% 100% at 100% 0,var(--c1) 4%,var(--_g),#0008 96%,#0000),
+          radial-gradient(100% 100% at 0 100%,#0000, #0008 4%,var(--_g),var(--c1) 96%)
+          var(--c1);
+        background-size: var(--s) var(--s);
+      }
+      body {
+        margin:0;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+      }
+      h1, h2, h3, h4 {
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-top:0;
+      }
+      main {
+        width:80%;
+        margin:auto;
+        background:#fff;
+        border-radius:20px;
+        min-height:30vh;
+        padding:40px 80px;
+        margin-top:60px;
+      }
+      footer {
+        background: #ccc;
+        position:fixed;
+        bottom:0;
+        width:100vw;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>About the Verso Project and Alanna Risse</h1>
+      <p>I started this project as a way to just have fun with HTML,CSS, and Javascript. Topics are what strikes my fancy at any given moment.</p>
+
+      <p>
+        <strong>verso /vûr′sō/</strong><br><br>
+        noun<br>
+        <ol>
+        <li>A left-hand page of a book or the reverse side of a leaf.</li>
+        <li>The back of a coin or medal.</li>
+        <li>The reverse, or left-hand, page of a book or a folded sheet of paper.</li>
+      </p>
+    </main>
+    <footer>&copy; Alanna Risse 2025</footer>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+
+    <script src="/verso/js/global.js"></script>
+  </body>
+</html>

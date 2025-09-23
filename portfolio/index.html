@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alanna Risse Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cal+Sans&family=Commissioner:wght@100..900&display=swap" rel="stylesheet">
+  <style>
+/* .cal-sans-regular {
+  font-family: "Cal Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.commissioner {
+  font-family: "Commissioner", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "FLAR" 0,
+    "VOLM" 0;
+} */
+* {
+  box-sizing:border-box;
+}
+body {
+  font-family: "Commissioner", sans-serif;
+  font-size:20px;
+}
+img {
+  width:100%;
+}
+a {
+  color:#b70202;
+  text-decoration:none;
+  border-bottom:1px solid #b70202;
+}
+a:hover {
+  border-bottom:2px solid #b70202;
+}
+h1, h2, h3 {
+  font-family: "Cal Sans", sans-serif;
+  font-weight:400;
+}
+h1 {
+  font-size:86px;
+  line-height: 3.6rem;
+  margin:0;
+}
+h2 {
+  font-size:60px;
+  line-height: 3rem;
+}
+header {
+  height:100vh;
+  width:80vw;
+  margin:auto;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+header div {
+  text-align:center;
+}
+.subtext{
+  max-width:600px;
+  text-align:left;
+  font-weight:200;
+  font-size:24px;
+}
+header ul {
+  text-align:left;
+  font-weight:200;
+}
+section {
+  width:80vw;
+  height:100vh;
+  margin:auto;
+}
+.grid  {
+  display:grid;
+  grid-gap:1rem;
+}
+.two-col-sh-left {
+  grid-template-columns: 1fr 2fr;
+}
+.two-col-sh-right {
+  grid-template-columns: 2fr 1fr;
+}
+.arrow {
+  width:86px;
+  padding-top:60px;
+  animation-name: bounce;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+  animation-direction: alternate-reverse;
+}
+@keyframes bounce {
+  0% {transform: translateY(-10px);}
+  100% {transform: translateY(10px);}
+}
+
+@media screen and (max-width: 768px) {
+  header, section {
+    width:90vw;
+    height: 50vh;
+  }
+  body {
+    font-size:16px;
+  }
+  h1 {
+    font-size:36px;
+    line-height:1;
+  }
+    h2 {
+    font-size:24px;
+    line-height:1;
+  }
+  .subtext {
+    font-size: 16px;
+  }
+}
+  </style>
+</head>
+<body>
+  <header>
+    <div>
+    <h1>Alanna Risse</h1>
+    <h2>Design Portfolio</h2>
+    <p class="subtext">Hello! I'm Alanna, a design instructor and freelance designer with tons of front-end developer experience. I love all things interactive design!</p>
+    <p class="subtext">Download me instead!
+      <ul>
+        <li><a href="ARisse-Portfolio.pdf.zip">Downloadable zip file of PDF</a></li>
+        <li><a href="ARisse-Portfolio.pdf">PDF</a></li>
+      </ul>
+    </p>
+    <h2><img class="arrow" src="images/arrow-down.svg"></h2>
+    </div>
+  </header>
+  <section class="grid two-col-sh-left">
+    <div>
+      <h2>Stitch Fix</h2>
+      <p>Aided Flickerbox, Inc. in Stitch Fix blog redesign by converting blog templates to new the new design, updating images and perfecting layouts for both women’s and men’s content posts.</p>
+    </div>
+    <div>
+      <img src="https://placehold.co/600x400/EEE/31343C">
+    </div>
+  </section>
+    <section class="grid two-col-sh-right">
+    <div>
+      <img src="https://placehold.co/600x400/EEE/31343C">
+    </div>
+    <div>
+      <h2>I'm another section!</h2>
+    </div>
+
+  </section>
+</body>
+</html>
